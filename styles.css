@@ -1,35 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #081425;
+    background-color: #07162b;
     color: #ffffff;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 nav{
-    align-items: center;
     height: 50px;
     width: 100%;
     position: fixed;
     z-index: 50;
     background-color: rgba(248, 250, 253, 0.11);
+    
 }
 nav .wrapper{
     position: relative;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    display: inline-flex;
 }
-
 .logo{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2em;
-    text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: .1rem;
     cursor: pointer;
+    color: #ffffff;
 }
+
+nav .nav-links{
+    display: inline-flex;
+}
+
+
+
+
+
+
 
   .wrapper .nav-links {
     display: inline-flex;
@@ -39,20 +54,13 @@ nav .wrapper{
   }
   
   .nav-links li a {
-    color: #000;
+    color: #ffffff79;
+    letter-spacing: .1rem;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 18px;
     padding: 5.5px 13px;
     margin: 0 10px 0 0;
-    border-radius: 20px;
     transition: all 0.5s ease;
-    font-family: "SamsungOne";
-  }
-  
-  .nav-links li a:hover {
-    background: #000;
-    color: #fff;
   }
   
 ul li a{
