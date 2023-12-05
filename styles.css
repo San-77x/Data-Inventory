@@ -60,6 +60,3 @@ ul li a{
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
-ul li a:hover{
-    color: #ffd200;
-}
