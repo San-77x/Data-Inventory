@@ -1,29 +1,67 @@
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #081425;
+    color: #495057;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    background-color: #0c1a31;
+}
+nav .wrapper{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
-  color: #fff;
+.logo{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
 }
 
-/* Color of the navbar AFTER scroll */
-.navbar-scroll,
-.navbar-scrolled {
-  background-color: #cbbcb1;
+  .wrapper .nav-links {
+    display: inline-flex;
+  }
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5.5px 13px;
+    margin: 0 10px 0 0;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    font-family: "SamsungOne";
+  }
+  
+  .nav-links li a:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
 }
-
-.mask-custom {
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, .15);
-}
-
-.navbar-brand {
-  font-size: 1.75rem;
-  letter-spacing: 3px;
+ul li a:hover{
+    color: #ffd200;
 }
