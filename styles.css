@@ -24,4 +24,12 @@ nav{
     text-transform: uppercase;
     letter-spacing: .1rem;
     cursor: pointer;
-    }
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+ul li a:hover{
+    color: #ffd200;
+}
