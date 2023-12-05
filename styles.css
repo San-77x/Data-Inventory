@@ -5,17 +5,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #081425;
-    color: #495057;
+    color: #ffffff;
 }
 nav{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
     width: 100%;
     position: fixed;
     z-index: 50;
-    background-color: #0c1a31;
+    background-color: rgba(248, 250, 253, 0.11);
 }
 nav .wrapper{
     position: relative;
