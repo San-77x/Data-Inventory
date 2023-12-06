@@ -11,25 +11,25 @@
     transition: .2s linear;
 }
 body {
-    background-color: #0b192e;
+    width: 100%;
+    background-color: #ffffff;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 nav{
-    height: 50px;
     width: 100%;
-    position: fixed;
-    z-index: 50;
-    background-color: rgba(255, 255, 255, 0.247);
-    
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 5px 50px rgba(138, 138, 138, 0.2);
 }
 .wrapper{
-    position: relative;
-    max-width: 1400px;
+    max-width: 1300px;
+    padding: 0px 30px;
+    height: 80px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    display: inline-flex;
+    justify-content: space-between;
+
 }
 .logo{
     font-family: 'Josefin Sans', sans-serif;
@@ -37,7 +37,7 @@ nav{
     text-decoration: none;
     letter-spacing: .2rem;
     cursor: pointer;
-    color: #ffffff;
+    color: #333333;
 }
 .wrapper .nav-links {
     display: inline-flex;
@@ -46,7 +46,8 @@ nav{
     list-style: none;
 }
 .nav-links li a {
-    color: #ffffff79;
+    color: #333333;
+    font-weight: 400;
     letter-spacing: .2rem;
     font-size: 18px;
     padding: 5.5px 13px;
@@ -60,13 +61,14 @@ nav{
     padding:15px 9%;
     padding-bottom: 100px;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .container .heading{
     text-align: center;
     padding-bottom: 15px;
-    color:#fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    color:rgb(48, 48, 48);
+    text-shadow: 0 1px 10px rgba(0,0,0,.2);
     font-size: 50px;
 }
 
@@ -77,9 +79,10 @@ nav{
 }
 
 .container .box-container .box{
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-    border-radius: 5px;
-    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    border: 1px solid rgb(241, 241, 241);
+    background: #ffffff;
     text-align: center;
     padding:30px 20px;
 }
@@ -89,13 +92,13 @@ nav{
 }
 
 .container .box-container .box h3{
-    color:#444;
+    color:#494949;
     font-size: 22px;
     padding:10px 0;
 }
 
 .container .box-container .box p{
-    color:#777;
+    color:rgb(175, 175, 175);
     font-size: 15px;
     line-height: 1.8;
 }
@@ -103,10 +106,10 @@ nav{
 .container .box-container .box .btn{
     margin-top: 10px;
     display: inline-block;
-    background:#333;
+    background:#00000080;
     color:#fff;
     font-size: 17px;
-    border-radius: 5px;
+    border-radius: 50px;
     padding: 8px 25px;
 }
 
