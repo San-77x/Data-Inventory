@@ -39,6 +39,7 @@ async def handle_form(Product: str = Form(...), Product_File: UploadFile= File(.
 def post_data(name_value: NameValues,rider_status: str = Body(...)):
     print(name_value)
     print(name_value)
+    print(name_value)
     
     return{
         "name": name_value.name,
