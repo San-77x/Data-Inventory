@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nova Square', sans-serif;
+    width: 100%;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+
+}
+nav:hover {
+    box-shadow: 1px 1px 10px 1px rgb(212, 212, 212);
+}
+
+.wrapper{
+    max-width: 1300px;
+    padding: 0px 30px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Asap', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    color: #4b4b4b;
+}
+.wrapper .nav-links {
+    display: inline-flex;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links li a {
+    color: #4b4b4b;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 5.5px 13px;
+    margin: 0 10px 0 0;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.nav-links li a:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+
+.container {
+    margin-top: 10%;
+    padding:15px 9%;
+    padding-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    border: 1px solid rgb(209, 209, 209);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    gap:15px;
+    max-width: 1300px;
+}
+
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:rgb(37, 37, 37);
+    font-size: 50px;
+}
+
+.input-group, .single-input {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+    <link rel="stylesheet" href="inputform.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <a href="#" class="logo">Data Store.</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shops</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>  
+    </nav>
+    <div class="container">
+        <div class="heading">Enter Information</div>
+        <form action="/submitform" method="post" enctype="multipart/form-data">
+            <div class="input-group">
+                <input type="text" id="Pname" name="Product" placeholder="Product Name" required>
+                </div>
+                <div class="input-group">
+                <input type="text" id="Pcode" name="Code" placeholder="Product Code" required>
+                <select id="Cname" name="Company" placeholder="Company Name" required>
+                    <option value="option1">Amazon</option>
+                    <option value="option2">Flipkart</option>
+                    <option value="option3">Lulu</option>
+                    <option value="option1">Samsung</option>
+                    <option value="option2">Google</option>
+                    <option value="option3">Apple</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Input 4" required>
+                <input type="text" placeholder="Input 5" required>
+            </div>
+            <div class="single-input">
+                <label for="date">Date: </label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="single-input">
+                <label for="quantity">Quantity:  </label>
+                <input type="number" id="quantity" min="1" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
