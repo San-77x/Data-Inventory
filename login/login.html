@@ -1,92 +1,24 @@
 <!DOCTYPE html>
-
-<html
- 
-lang="en">
-
+<html lang="en">
 <head>
-
-    
-<meta
- 
-charset="UTF-8">
-
-    
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
-
-    
-<title>Login</title>
-
-    
-<link
- 
-rel="stylesheet"
- 
-href="login.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
 </head>
-
 <body>
-
+    <form action="">
+        <h2><span class="entypo-login"><i class="fa fa-sign-in"></i></span> Admin Panel</h2>
+        <button class="submit"><span class="entypo-lock"><i class="fa fa-lock"></i></span></button>
+        <span class="entypo-user inputUserIcon">
+           <i class="fa fa-user"></i>
+         </span>
+        <input type="text" class="user" placeholder="Username"/>
+        <span class="entypo-key inputPassIcon">
+           <i class="fa fa-key"></i>
+         </span>
+        <input type="password" class="pass"placeholder="Password"/>
+      </form>
     
-<div
- 
-class="container">
-
-        
-<h1>Login</h1>
-
-        
-<form
- 
-action="login.php"
- 
-method="post">
-
-            
-<label for="username">Username:</label>
-
-            
-<input
- 
-type="text"
- 
-name="username"
- 
-id="username"
- 
-required>
-
-            
-<br>
-
-            
-<label
- 
-for="password">Password:</label>
-
-            
-<input
- 
-type="password"
- 
-name="password"
- 
-id="password"
- 
-required>
-
-            
-<br>
-
-            
-<button type="submit">Login</button>
-        </form>
-    </div>
-    <script src="script.js"></script>
 </body>
 </html>
